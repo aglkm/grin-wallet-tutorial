@@ -24,6 +24,6 @@ The command will return a Slatepack which you should provide to the sender.
 
 6. Send.
 * Run `./grin-wallet send 1` (sending 1 coin), copy the returned Slatepack message and provide it to receiver.
-* Get Slatepack message from the receiver, run `./grin-wallet finalize` and copy-paste it.
+* Get Slatepack message from the receiver, run `./grin-wallet finalize` command and copy-paste the Slatepack into it.
 
 For the complete guide go to: [https://docs.grin.mw/getting-started/wallet-handbook/](https://docs.grin.mw/getting-started/wallet-handbook/)
