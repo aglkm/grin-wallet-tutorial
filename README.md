@@ -10,7 +10,7 @@ Ignore the errors and set the password, the command will create the wallet in th
 
 3. Find `grin-wallet.toml` file in the current directory and edit it as follows:
 ![image](https://github.com/user-attachments/assets/596b6782-5bc2-48c3-b45b-9d99af4950a4)
-As you can see, we commented `api_secret_path`, `node_api_secret_path` and added grincoin.org public node.
+As you can see, we commented `api_secret_path`, `node_api_secret_path` and added `https://grincoin.org` public node. You can also use `https://grinnode.live:3413` node.
 
 4. Run `./grin-wallet info` command and wait for the wallet scanning completion, this could take several minutes.
 ![image](https://github.com/user-attachments/assets/b20479d2-65ff-44ac-9bf4-6aa978db6d9b)
@@ -22,7 +22,7 @@ That's it. The wallet is fully set and ready to make your first transaction.
 ![image](https://github.com/user-attachments/assets/39a46302-7674-44af-886e-a0a04f67b65d)
 The command will return a Slatepack which you should provide to the sender.
 
-7. Send.
+6. Send.
 * Run `./grin-wallet send 1` (sending 1 coin), copy the returned Slatepack message and provide it to receiver.
 * Get Slatepack message from the receiver, run `./grin-wallet finalize` and copy-paste it.
 
