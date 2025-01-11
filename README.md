@@ -7,7 +7,8 @@ This tutorial will teach you how to create Grin command line wallet as easy as p
 2. Create new wallet: `./grin-wallet init -h`.
 Ignore the errors and set the password, the command will create the wallet in the current directory.
 ![image](https://github.com/user-attachments/assets/5de41b6e-f8ed-437d-b482-215da0dd30db)
-If you need to recreate your wallet from an existing seed, use `./grin-wallet init -hr` command.
+> [!NOTE]
+> If you need to recreate your wallet from an existing seed, use `./grin-wallet init -hr` command.
 
 4. Find `grin-wallet.toml` file in the current directory and edit it as follows:
 ![image](https://github.com/user-attachments/assets/596b6782-5bc2-48c3-b45b-9d99af4950a4)
