@@ -13,8 +13,8 @@ Ignore the errors and set the password, the command will create the wallet in th
 > If you need to recreate your wallet from an existing seed, use `./grin-wallet init -hr` command.
 
 3. Find `grin-wallet.toml` file in the current directory and edit it as follows:
-![image](https://github.com/user-attachments/assets/596b6782-5bc2-48c3-b45b-9d99af4950a4)
-As you can see, we commented `api_secret_path`, `node_api_secret_path` and added `https://grincoin.org` public node. You can also use `https://grinnode.live:3413` node.
+![image](https://github.com/user-attachments/assets/0866590b-7d2f-46bd-921e-4a61462656ab)
+As you can see, we commented `node_api_secret_path` and added `https://grincoin.org` public node. You can also use `https://grinnode.live:3413` node.
 
 4. Run `./grin-wallet info` command and wait for the wallet scanning completion, this could take several minutes.
 ![image](https://github.com/user-attachments/assets/b20479d2-65ff-44ac-9bf4-6aa978db6d9b)
